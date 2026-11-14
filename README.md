@@ -23,11 +23,11 @@ A Spring Boot microservice for demo account-to-account transfers, deployed to **
 
 **Application running on AWS EKS**
 
-![Dashboard running on AWS EKS](docs/images/dashboard.png)
+![Dashboard running on AWS EKS](dashboard.png)
 
 **Jenkins 11-stage pipeline**
 
-![Jenkins pipeline stage view](docs/images/jenkins-pipeline.png)
+![Jenkins pipeline stage view](jenkins-pipeline.png)
 
 ## Tech Stack
 
@@ -108,7 +108,8 @@ Open the `EXTERNAL-IP` shown in your browser.
 ## Project Structure
 
 ```
-├── docs/images/         Screenshots used in this README
+├── dashboard.png        Screenshot used in this README
+├── jenkins-pipeline.png Screenshot used in this README
 ├── src/                 Spring Boot application and dashboard page
 ├── k8s/                 Kubernetes deployment and service
 ├── ansible/             Cluster verification playbook
